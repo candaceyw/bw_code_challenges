@@ -1,6 +1,8 @@
 
 
-
+# first initial thought is to loop through the first element in the array and then compare it to the rest
+# Not the most ideal option, since we'll need to traverse through a nested loop
+# which would be O(n^2)
 def twoSumNaive(num_arr, pair_sum):
     # search first element in the array
     for i in range(len(num_arr) - 1):
